@@ -1,0 +1,89 @@
+	TestNG - Next Generation
+	
+	Selenium - WebApplication automation framework
+	
+	TestNg is Testing framework , can be used for unit, integration, functional, end to end Testing
+	
+	Selenium, java, TestNg is a combination 
+	
+	only with java we can't do automation Testing , so we need selenium framework
+	
+	Likewise TestNg helps to overcome the real time issues. and it have built in functions.
+	
+	Download TestNG from eclipse-> help-> Eclipse market place ->search testng and download it.
+	
+	Add testng to the project rightclick on project -> bulid path -> configure build path -> add library -> select testng ->finish -> apply & close
+	
+	// Topic-1 ( @Test )  
+	
+	we can run the class by using @test testng annotation without using the java main method.
+	
+	for @test we need to import this package ->org.testng.annotation.test
+	
+	we can run all the testcases at singleshot by using testng testng.xml file.
+	
+	// Topic-2 ( Priority )
+	
+	* if we don't set the priority then the test case will be executed on alphabetical order only
+	
+	* priority is a keyword , not an annotation.
+	
+	* priority help us to make the testcase which need to run 1st.
+	
+	* Default priority for the test case is 0.
+	
+	* priority support for negative numbers also like -1,-2,-3(here -3 is the 1st priority).
+	
+	* priority accepts only integer value only.
+	
+	// Topic-3 ( enable )
+	
+	* if we want to skip a testcase , then we use enable keyword.
+	
+	* Enable is a boolean type.
+	
+	* by Default enable value is true.
+	
+	* set -> @Test(enable = false) to fail a testcase
+	
+	* we can use both priority and enable with @Test annotation
+	
+	//Topic-4 ( Dependency )
+	
+	* suppose if u have to run 100 testcases at a time but the important key feature method is failing and the application depends on it only 
+	
+	* for the abobe scenario we need that DependsonMethod
+	
+	* @Test(dependsOnMethod="highSchool")
+	
+	* mostly the sub methods depends on the main method only if the main method fail but sub method works , so no use in it
+	
+	* so we go with DependsOnMethod only 
+	
+	* for eg: amazon login site is not working but the inner feature working so there is no use in it 
+	
+	//Topic-5
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 
+	
+	
+	
+	  
+	
+	
+	
+	
+ 
