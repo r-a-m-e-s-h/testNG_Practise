@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-07T15:54:07 GMT-07:00" name="Default suite" finished-at="2023-06-07T15:54:07 GMT-07:00" duration-ms="54">
+  <suite started-at="2023-06-09T13:16:03 GMT-07:00" name="XML File Practise" finished-at="2023-06-09T13:16:58 GMT-07:00" duration-ms="54268">
     <groups>
     </groups>
-    <test started-at="2023-06-07T15:54:07 GMT-07:00" name="Default test" finished-at="2023-06-07T15:54:07 GMT-07:00" duration-ms="54">
-      <class name="Practise.testNG_Dependency">
-        <test-method signature="highSchool()[pri:0, instance:Practise.testNG_Dependency@3c947bc5]" started-at="2023-06-07T15:54:07 GMT-07:00" name="highSchool" finished-at="2023-06-07T15:54:07 GMT-07:00" duration-ms="10" status="PASS">
+    <test started-at="2023-06-09T13:16:03 GMT-07:00" name="Practise" finished-at="2023-06-09T13:16:58 GMT-07:00" duration-ms="54268">
+      <class name="Practise.testNG_ParallelExecution">
+        <test-method signature="Yahoo()[pri:0, instance:Practise.testNG_ParallelExecution@3d6f0054]" started-at="2023-06-09T13:16:03 GMT-07:00" name="Yahoo" finished-at="2023-06-09T13:16:58 GMT-07:00" duration-ms="54203" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- highSchool -->
-        <test-method signature="higherSecondary()[pri:0, instance:Practise.testNG_Dependency@3c947bc5]" started-at="2023-06-07T15:54:07 GMT-07:00" name="higherSecondary" finished-at="2023-06-07T15:54:07 GMT-07:00" depends-on-methods="Practise.testNG_Dependency.highSchool" duration-ms="1" status="PASS">
+        </test-method> <!-- Yahoo -->
+        <test-method signature="google()[pri:0, instance:Practise.testNG_ParallelExecution@3d6f0054]" started-at="2023-06-09T13:16:03 GMT-07:00" name="google" finished-at="2023-06-09T13:16:26 GMT-07:00" duration-ms="22485" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- higherSecondary -->
-        <test-method signature="collage()[pri:0, instance:Practise.testNG_Dependency@3c947bc5]" started-at="2023-06-07T15:54:07 GMT-07:00" name="collage" finished-at="2023-06-07T15:54:07 GMT-07:00" depends-on-methods="Practise.testNG_Dependency.higherSecondary" duration-ms="2" status="PASS">
+        </test-method> <!-- google -->
+        <test-method signature="Bing()[pri:0, instance:Practise.testNG_ParallelExecution@3d6f0054]" started-at="2023-06-09T13:16:03 GMT-07:00" name="Bing" finished-at="2023-06-09T13:16:14 GMT-07:00" duration-ms="11016" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- collage -->
-      </class> <!-- Practise.testNG_Dependency -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Bing -->
+      </class> <!-- Practise.testNG_ParallelExecution -->
+    </test> <!-- Practise -->
+  </suite> <!-- XML File Practise -->
 </testng-results>

@@ -2,25 +2,27 @@
 	
 	Selenium - WebApplication automation framework
 	
-	TestNg is Testing framework , can be used for unit, integration, functional, end to end Testing
+	TestNG is Testing framework , can be used for unit, integration, functional, end to end Testing
 	
-	Selenium, java, TestNg is a combination 
+	Unit Testing -> Developer test his own code before hand overing to QA team  
+	
+	Selenium, java, TestNG is a combination 
 	
 	only with java we can't do automation Testing , so we need selenium framework
 	
-	Likewise TestNg helps to overcome the real time issues. and it have built in functions.
+	Likewise TestNG helps to overcome the real time issues. and it have built in functions.
 	
-	Download TestNG from eclipse-> help-> Eclipse market place ->search testng and download it.
+	Download TestNG from eclipse-> help-> Eclipse market place ->search TestNG and download it.
 	
-	Add testng to the project rightclick on project -> bulid path -> configure build path -> add library -> select testng ->finish -> apply & close
+	Add TestNG to the project rightclick on project -> bulid path -> configure build path -> add library -> select TestNG ->finish -> apply & close
 	
 	// Topic-1 ( @Test )  
 	
-	we can run the class by using @test testng annotation without using the java main method.
+	we can run the class by using @test TestNG annotation without using the java main method.
 	
-	for @test we need to import this package ->org.testng.annotation.test
+	for @test we need to import this package ->org.TestNG.annotation.test
 	
-	we can run all the testcases at singleshot by using testng testng.xml file.
+	we can run all the testcases at singleshot by using TestNG TestNG.xml file.
 	
 	// Topic-2 ( Priority )
 	
@@ -62,7 +64,73 @@
 	
 	* for eg: amazon login site is not working but the inner feature working so there is no use in it 
 	
-	//Topic-5
+	//Topic-5( Suite )
+	
+	* Suite helps to reduce the time taken for same thing which we do simultaneously, for  that we can give the details in before and after annotations.
+	
+	* TestNG suite annotations are -> @BeforeSuite -> @BeforeTest -> @Beforeclass -> @Beforemethod -> @Test -> @Aftermethod -> @Afterclass -> @AfterTest -> @AfterSuite
+	
+	* There 9 annotations in TestNG Suite
+	
+	* through the TestNG suite we can run all the test cases 
+	
+	* we can increase the report details by using verbose="2"
+	
+	* after running the TestNG suite , a test output folder will be created inside that -> we have index.html -> its a test report for our execution.
+	
+	//Topic-6( Groups )
+	
+	* Groups - helps us to run the specific test cases only
+	
+	* we need to use the groups keyword inside the @test annotation -> @Test(groups="Nokia")
+	
+	* groups have 2 options, one is include and another one is exclude
+	
+	* we need to declare groups in test class then  in XML Suite 
+	 
+	* in XML Suite -> declare groups under -> test -> run - > include or exclude
+	
+	//Topic-7( parameter )
+	
+	* Paramter annotation help us to pass values to the test case 
+	
+	* we can define value in TestNG Suite
+	
+	* TestNG Suite -> test -> <paramter name="" ,value=""></parameter>
+	
+	*test case -> @parameter("name")
+	
+	*parameter is a case sensitive, so we should  whart ever the name given in the paramater name in TestNG Suite
+	
+	//Topic-8(  Parallel Execution)
+	
+	* TestNG parallel Execution help us to run multiple testcases in single shot
+	
+	* we can define how many test cases need to run at a time in the thread-count
+	
+	* TestNG Suite -> suite tag -> parallel="methods" -> thread-count="3"
+	
+	//Topic-9( Assertion )
+	
+	*TestNG Assertion help us to compare two data
+	
+	* we have 2 types of assertions -> Assert(hard assert) and Soft assert
+	
+	* Assert(hard) fails wont go to next step 
+	
+	* where as softAssert fails it wont stop the execution. 
+	
+	
+	//Topic-10( Listeners )
+	
+	* Listeners used to monitor the execution flow of the testing
+	
+	* we have 3 types of listeners -> Suite Listeners, Test Listeners, method Listeners
+	
+	* we generally go with test listeners.
+	
+	
+	
 	
 	
 	
