@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-11T12:01:28 GMT-07:00" name="Default suite" finished-at="2023-06-11T12:01:47 GMT-07:00" duration-ms="19500">
+  <suite started-at="2023-06-12T12:11:37 GMT-07:00" name="Default suite" finished-at="2023-06-12T12:11:59 GMT-07:00" duration-ms="22248">
     <groups>
     </groups>
-    <test started-at="2023-06-11T12:01:28 GMT-07:00" name="Default test" finished-at="2023-06-11T12:01:47 GMT-07:00" duration-ms="19500">
-      <class name="Practise.calendarPractise">
-        <test-method signature="calendar()[pri:0, instance:Practise.calendarPractise@71238fc2]" started-at="2023-06-11T12:01:28 GMT-07:00" name="calendar" finished-at="2023-06-11T12:01:47 GMT-07:00" duration-ms="19470" status="PASS">
+    <test started-at="2023-06-12T12:11:37 GMT-07:00" name="Default test" finished-at="2023-06-12T12:11:59 GMT-07:00" duration-ms="22248">
+      <class name="Practise.Calendar_retry">
+        <test-method signature="test()[pri:0, instance:Practise.Calendar_retry@71238fc2]" started-at="2023-06-12T12:11:37 GMT-07:00" name="test" finished-at="2023-06-12T12:11:59 GMT-07:00" duration-ms="22222" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- calendar -->
-      </class> <!-- Practise.calendarPractise -->
+        </test-method> <!-- test -->
+      </class> <!-- Practise.Calendar_retry -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
